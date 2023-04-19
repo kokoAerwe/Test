@@ -1,0 +1,128 @@
+{
+  "id": "03bbe751-abff-44df-8200-7c8e356b393e",
+  "version": "2.0",
+  "name": "test5",
+  "url": "http://127.0.0.1:8080/#/login",
+  "tests": [{
+    "id": "25230682-bf9e-4855-b3f2-f7d50058cec9",
+    "name": "test5",
+    "commands": [{
+      "id": "26776f1d-56ad-4ea3-b5f6-a3d34527870f",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8080/#/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8486489-27e7-4beb-bb37-9d7eaa9dadc2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1095x624",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00777ad4-9440-4614-8b00-c7716166bb57",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .el-input > .el-input__inner",
+      "targets": [
+        ["css=div:nth-child(1) > .el-input > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b91e6d6-a90e-4fa7-94b8-48a519463808",
+      "comment": "",
+      "command": "type",
+      "target": "css=div:nth-child(1) > .el-input > .el-input__inner",
+      "targets": [
+        ["css=div:nth-child(1) > .el-input > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "7777"
+    }, {
+      "id": "77af1022-eb35-4772-8970-071e9b3a7cdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18d6340d-0507-414e-b112-e25dc5a1f90e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-input--suffix > .el-input__inner",
+      "targets": [
+        ["css=.el-input--suffix > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "00f35bbd-ba7e-43c4-91d3-e0aef60f033f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.el-input--suffix > .el-input__inner",
+      "targets": [
+        ["css=.el-input--suffix > .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "7777"
+    }, {
+      "id": "7c1f18c2-5ccb-4bd7-ae6c-d07a5c859685",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-button",
+      "targets": [
+        ["css=.el-button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='login']/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc9cd9ea-0117-4eef-af1a-3998a114b757",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-submenu__title",
+      "targets": [
+        ["css=.el-submenu__title", "css:finder"],
+        ["xpath=//div[@id='main-index']/section/header/ul/li[3]/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fcd1b3-3ca9-4e04-a4db-0936554d9f87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.el-menu--popup > .el-menu-item:nth-child(4)",
+      "targets": [
+        ["css=.el-menu--popup > .el-menu-item:nth-child(4)", "css:finder"],
+        ["xpath=//div[2]/ul/li[4]", "xpath:position"],
+        ["xpath=//li[contains(.,'My Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "97895241-76dd-4e30-ab33-56539b0fb1dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:8080/", "http://127.0.0.1:8080/#/login"],
+  "plugins": []
+}
